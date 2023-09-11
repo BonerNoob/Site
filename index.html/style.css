@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif; /* Yazı tipi ailesi */
+    font-size: 11px; /* <p></p> etiketindeki ana yazının boyutu */
+    background-color: #baeb7f; /* Web sayfasının arka plan rengi */
+    color: #000000; /* Metin rengi */
+}
+
+h1 {
+    color: #000000; /* Başlık rengi */
+    font-size: 24px; /* Başlık yazı tipi boyutu */
+    font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
+}
+ 
+h3 {
+    color:#000000
+    font-size: 24px
+    font-family: Georgia, serif;
+}
+
+
+li {
+    color:#697eab
+    font-size: 10px
+    font-family: Georgia, serif;
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
